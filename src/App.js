@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import classes from './App.css';
-import Person from '../components/Persons/Person/Person';
+import Person from './Person/Person';
 
 class App extends Component {
   state = {
@@ -87,7 +87,7 @@ class App extends Component {
         {persons}
       </div>
     );
-
+    // return React.createElement('div', {className: 'App'}, React.createElement('h1', null, 'Does this work now?'));
   }
 }
 
